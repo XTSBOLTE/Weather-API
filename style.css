@@ -1,0 +1,154 @@
+*{
+  margin: none;
+padding: none;
+}
+#body{
+  margin-top:none;
+  align-content: center;
+  align-items: center;
+justify-content: center;
+justify-items: center;
+  display: flex;
+  margin: none;
+ background-image: url("/background2.jpg");
+background-repeat: no-repeat;
+}
+
+
+.container{
+ min-width: 100vw;
+  min-height: 100vh;
+border-radius:10px;
+overflow: hidden;
+}
+
+nav ul li{
+display: inline-block;
+text-decoration: none;
+align-content: center;
+align-items: center;
+}
+nav ul li a{
+  padding: 10px;
+  text-decoration: none;
+color: white;
+font-family: Serif;
+}
+
+.nav nav ul{
+padding: none;
+margin: none;
+
+display: flex;
+align-content: center;
+align-items: center;
+  justify-content: center;
+  justify-items: center;
+
+
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  align-content: center;
+justify-content: center;
+  justify-items: center;
+
+}
+
+.nav{
+  overflow: hidden;
+margin-top: none;
+  box-shadow: 2px 2px -2px black;
+display: flex;
+  padding: 1px;
+  background-color: #923cb5;
+background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+justify-content: center;
+justify-items: center;
+height: 50px;
+}
+
+
+input{
+  margin-top: 20px;
+  height: 20px;
+margin-bottom: 50px;
+background-color: #bdcad9;
+background-image: linear-gradient(315deg, #bdcad9 0%, #bfbaba 74%);
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+input:hover{
+-webkit-box-shadow: 0 0 5px #000000;
+        box-shadow: 0 0 5px #000000;
+margin-bottom: 50px;
+}
+
+#searchimg{
+height: 15px;
+cursor: pointer;
+}
+
+
+#location{
+text-shadow: 0.5px 0.5px #6e6e6e;
+  margin-bottom: none;
+}
+
+#weather-result{
+font-size: 130%;
+  font-weight: 500;
+}
+
+#img{
+width: auto;
+height:80px;
+  padding: none;
+margin-bottom: none;
+}
+
+#text{
+margin-bottom: 10px;
+  
+
+}
+
+
+
+#county{
+
+  margin: 10px;
+}
+
+.active{
+  font-weight: bold;
+  color: #b5b5b5;
+}
+
+#searchimg:hover{
+  background-color:#e0e0e0;
+}
+
+#about{
+
+margin:30px;
+display: flex;
+  flex-direction: column;
+  width: 90%;
+height: auto;
+
+ justify-content: center;
+  justify-items: center;
+  align-items: center;
+align-content: center;
+
+}
+
+.nav nav{
+  padding: none;
+  border:none;
+}
